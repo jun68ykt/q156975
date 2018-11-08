@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 
   $(function showElement() {
-    $.ajax('http://localhost:8000/api',  // DASのAPIでdiscussion.jsonのようなデータを取得
+    $.ajax('api/dummy.json',
       {
         type: 'get',
 
