@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>議論の可視化</title>
+
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+
+    <script type="text/javascript" src="hurikaeri2.js"></script>
+    <script type="text/javascript" src="hurikaeri3.js"></script>
+    <script type="text/javascript" src="hurikaeri4.js"></script>
+
+    <script src="canvas.js"></script>
+    <link rel="stylesheet" href="canvas.css" />
+
+</head>
+<body>
+
+<div id="container" style="width: 700px; height: 800px; margin: 0 auto;position: absolute; left: 500px; top: 200px"></div>
+<div id="container2" style="width: 500px; height: 800px; margin: 0 auto;position: absolute; left: 1300px; top: 200px"></div>
+<div id="container3" style="width: 500px; height: 800px; margin: 0 auto;position: absolute; left: 2000px; top: 200px"></div>
+<div id="container4" style="width: 500px; height: 800px; margin: 0 auto;position: absolute; left: 2000px; top: 800px"></div>
+
+
+<style type="text/css">
+    .rotate {
+        transform: rotate(90deg);
+    }
+    select { width: 250px; }
+
+
+    div { text-align : left ; }
+</style>
+<style>
+    div.box{
+        background-color: rgb(255,0,0,0.4);
+        width:200px;
+        height:700px;
+        position: absolute;
+        left: 1615px;
+        top: 250px
+    }
+</style>
+<div style="position:relative; top:-280px; left: 400px;">
+    <div class="rotate">
+
+        <source id="saisin_id" src="C:/shiramatsu/2d31ac72-28be-40d2-b69b-2d8677cd003d/audio.flac">
+        <p>※ご利用のブラウザでは再生することができません。</p>
+
+    </div>
+</div>
+<div class="box"></div>
+</body>
+</html>
