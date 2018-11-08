@@ -30,7 +30,7 @@ $(document).ready(function() {
             return false;
           }
 
-          x.series.push({data:sample});//変更した箇所
+          x.series[0].data = sample;
           // x.xAxis.push({categories: keys});
           console.log("userの発言量"+sample);
 
